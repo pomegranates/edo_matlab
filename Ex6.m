@@ -23,7 +23,7 @@ hold on
 tic
 for i=1:100,
     [T,Y] = ode15s(@(t,y) van_der_pol(t,y,i),[0 120],[1 1]);
-    I  = i*ones(length(T),1);
+    I = i*ones(length(T),1);
     plot3(T,I,Y(:,1),'-x')
 end
 toc

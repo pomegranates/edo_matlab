@@ -10,12 +10,7 @@ plot(T,Y1)
 [T,Y2] = Cauchy2_exact([0,4],1);
 plot(T,Y2,'r-')
 
-title('Chronique');
-    
-xlabel('t');
-ylabel('y');
-
-legend('Euler explicite', 'Solution exacte', 'Location', 'Best')
+legend('Solution exacte', 'Euler explicite', 'Euler implicite', 'best')
 
 Y2
 Y1

@@ -19,7 +19,7 @@ for i = 1:3
     [T,Y3] = Cauchy1_implicit([0,4],h(i));
     plot(T,Y3,'g-')
     
-    title(strcat('u en fonction de t pour un pas de temps h= ', num2str(h(i))))
+    title('u en fonction de t pour un pas de temps '+num2str(h(1)))
     
     xlabel('t');
     ylabel('u');

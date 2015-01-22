@@ -32,7 +32,7 @@ plot(T,Y(:,1),'ro')
 title('Chronique');  
 xlabel('t');
 ylabel('y');
-legend('ode45', 'ode23', 'Location', 'Best')
+legend('ode45', 'ode23s', 'Location', 'Best')
 
 figure %draw on figure 4
 hold on

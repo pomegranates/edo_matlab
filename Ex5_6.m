@@ -14,7 +14,7 @@ for r=0.05:0.01:1.2
     end
 end
 xlim([0.1 1.2])
-title('Surface d''équation f(x,k,r) = 0');
+title('Surface d''equation f(x,k,r) = 0');
 xlabel('r');
 ylabel('k');
 zlabel('x');
@@ -36,7 +36,7 @@ for r=0.4:0.01:0.7
     end
 end
 xlim([0.4 0.7])
-title('Surface d''équation f(x,k,r) = 0');
+title('Surface d''equation f(x,k,r) = 0');
 xlabel('r');
 ylabel('k');
 zlabel('x');

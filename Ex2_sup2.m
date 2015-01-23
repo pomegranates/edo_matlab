@@ -2,7 +2,7 @@
 figure
 hold on
 
-% RK4
+% Euler explicite
 [T,Y1] = Euler('Cauchy2',[0,10],2,0.001);
 plot(T,Y1)
 
